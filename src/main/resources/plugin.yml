@@ -1,0 +1,13 @@
+name: Nexray
+version: '${version}'
+main: me.abb3v.nexray.Nexray
+api-version: '1.20'
+description: Nexaris Anti-Xray
+commands:
+  xrayalerts:
+    description: Toggle x-ray alerts on or off.
+    usage: /xrayalerts
+permissions:
+  xrayalerts.staff:
+    description: Permission to receive x-ray alerts and use the /xrayalerts command.
+    default: op
